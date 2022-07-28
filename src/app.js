@@ -1,3 +1,20 @@
+// Get the video for the background
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+
 //time
 let date = new Date();
 let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -108,4 +125,4 @@ function handleSubmit(event) {
 let submit = document.querySelector("#search-form");
 submit.addEventListener("submit", handleSubmit);
 
-search("Bologna");
+search("Dublin");

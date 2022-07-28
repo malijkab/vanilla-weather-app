@@ -22,9 +22,33 @@
     ></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Weather App 2022</title>
+    <style>
+      a {
+        color:rgb(110, 208, 175);
+      }
+      a:hover {
+        color: white;
+      }
+
+      .btn {
+        color: rgb(110, 208, 175);
+      }
+      .btn:hover {
+        color: white;
+      }
+
+    </style>
   </head>
+
   <body>
     <div class="container">
+      <div class="background" style="position: fixed; top: 0; width: 100%; height: 100%; z-index: -1;">
+        <!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="media/background-nature.mp4" type="video/mp4">
+</video>
+</div>
+      </div>
       <div class="weather-app-box">
         <div class="current-weather-top">
           <form class="row g-3" id="search-form">
@@ -99,7 +123,6 @@
           <a href="https://www.linkedin.com/in/jdtanedo/" target="_blank"
             >Justine D. Tanedo</a
           >
-          <i class="fab fa-linkedin"></i>
         </footer>
       </div>
     </div>

@@ -1,3 +1,23 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Style the button used to pause/play the video */
+#background-button {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
 body {
   background-color: #330867;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
@@ -14,7 +34,7 @@ h1 {
   margin: 40px auto;
   max-width: 600px;
   padding: 30px 30px 10px;
-  background: #ecc5b9d5;
+  background: #4c6882;
   box-shadow: 8px 6px 6px #3c4e68;
 }
 
@@ -33,7 +53,7 @@ h1 {
 }
 .description {
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bolder;
   text-align: center;
 }
 .weather-forecast {
@@ -51,7 +71,7 @@ ul {
 
 li {
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 500;
   height: 19px;
   line-height: 1;
   list-style: none;
@@ -84,9 +104,17 @@ li {
   margin-bottom: 20px;
   border-radius: 15px;
 }
+
+p {
+  font-weight: bold;
+}
+
 footer {
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: 0% auto;
 }
 
 .fa-linkedin {
