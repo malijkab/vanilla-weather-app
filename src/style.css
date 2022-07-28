@@ -18,11 +18,6 @@ h1 {
   box-shadow: 8px 6px 6px #3c4e68;
 }
 
-.popular-cities {
-  font-size: 18px;
-  font-weight: normal;
-}
-
 .current-weather-icon img {
   height: 120px;
   width: 120px;
@@ -61,6 +56,11 @@ li {
   line-height: 1;
   list-style: none;
 }
+
+.result {
+  font-weight: bold;
+}
+
 .future-forecast {
   font-size: 18px;
   font-weight: bold;
