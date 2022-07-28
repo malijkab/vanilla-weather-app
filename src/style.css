@@ -109,9 +109,9 @@ p {
   font-weight: bold;
 }
 
-footer {
-  font-size: 24px;
-  font-weight: bold;
+.footer {
+  font-size: 19px;
+  font-weight: normal;
   color: #fff;
   text-align: center;
   margin: 0% auto;
